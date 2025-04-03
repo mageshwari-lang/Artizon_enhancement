@@ -4,7 +4,7 @@
 <header class="masthead text-center text-white">
      <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">ArtizonHub</h1>
+          <h1 class="masthead-heading mb-0">ArtizonHub!!!</h1>
           <h2 class="masthead-subheading mb-0">we are connecting likeminds </h2>
           <a class="btn btn-primary btn-xl rounded-pill mt-5" href="login.php">Click Here to Signup</a>
         </div>
