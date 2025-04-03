@@ -1,0 +1,179 @@
+ 
+body {
+	background:url(../img/LoginPageBackground.png) no-repeat center center fixed;
+	background-size: cover;
+	font-family:Verdana, Geneva, sans-serif; 
+	color:#fff; 
+	font-size:12px;
+	
+}
+#wrapper{}
+ #header{
+	
+     background-color:#33b6c0;
+	    /* padding: 25px 0px;*/
+	 } 
+.container{width:100%; margin:auto;}
+
+.logo{float:left; margin:10px 0 0 0; vertical-align:center;}
+
+.logoimage{float:left; margin:6px 130px 0 0px;}
+
+.logoright{float:right; width:150px; margin:20px 0 0 0;}
+
+.quick-form {
+	margin-top: 10px;
+    padding-left: 140px;
+
+}	 
+	 
+	.username{/* float:left; */border:none;width: 170px;height:26px;margin:10px 0 0 0;color:#000;font:12px Arial, Helvetica, sans-serif;padding:0 10px 0 12px;}
+
+.password{/* float:left; */border:none;width: 170px;height:26px;margin:10px 0 0 16px;color:#a6a6a6;font:12px Arial, Helvetica, sans-serif;padding:0 10px 0 12px;} 
+	 .submit {
+	  background: #33b6c0;
+    border: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0 10px 0 12px;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0 0 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #fff;
+	 
+	 }
+	.forget-passw a {
+    color: #fff;
+    margin: 9px 0px 0px 12px;
+    display: inline-block;
+}
+.quick-form-modal {
+	color:#000;
+}
+
+/***************************************content*********/
+#login-content {
+	
+}
+
+.content-row {
+    padding: 90px 10px 100px 10px;
+}
+.get-notice .caption {
+    background: rgba(255, 255, 255, 0.4) repeat;
+    text-align: left;
+    /*width: 100%;*/
+    padding: 20px 20px;
+    height: 290px;
+    width: 550px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+	}
+.get-notice .caption h3{color:#606364; font:25px Verdana, Geneva, sans-serif ; line-height:34px; text-align:left; margin:10px 0 10px 14px;}
+.get-notice .caption p{color:#606364; font:17px Verdana, Geneva, sans-serif; line-height:30px; margin:10px 0 10px 15px;}
+.get-notice .caption p a{color:#df992b; text-decoration:underline; }
+
+
+
+
+
+.register-form {
+   
+}
+
+
+.form_header label {
+    width: 100%;
+    color: #606366;
+    font-weight: bold;
+    font: 28px "Trebuchet MS", Myriad Pro, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.form_row{ width:100%; position:relative; color:#c4c2c2; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.form_row a{ /*color:#c4c2c2; */ color: #606366; text-decoration:none;}
+.form_row a:hover{color:#fff; text-decoration:none;}
+
+.form_row label{ width:190px; /*color:#549AD1;*/color:#000; font-weight:bold;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; text-align:right; padding:0 15px 0 0; line-height:42px;}
+
+.form_row span{ /*color:#FF0000;*/color:#000; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; line-height:20px; margin:15px 0 0 5px;}
+
+.form_row .radio{ }
+
+.form_row .input{ /* color:#a6a6a6; */ color: #000; font:12px Arial, Helvetica, sans-serif; background:#fff; border:solid 1px #999; width:250px; height:25px; padding:0 10px; margin:6px 0 0 0;}
+.flexslider .slides img{ height:366px !important;}
+
+select#country {
+    width: 250px;
+    height: 25px;
+    color: #726d6d;
+    font: 12px Arial, Helvetica, sans-serif;
+    border: solid 1px #999;
+    /* color: #000; */
+}
+.err-msg {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.terms-msg {
+    /* text-align: center; */
+    padding: 0px 0px 10px 55px;
+}
+
+.signup-here {
+   padding: 0px 0px 10px 55px;
+}
+
+.submit2{ background:url(images/button.png) repeat #32b5bf;  width:136px; height:33px; text-align:center; border:none; cursor:pointer; padding:0; color:#fff; font:14px Arial, Helvetica, sans-serif;font-weight:bold; margin:8px 0 0 113px;}
+
+
+label.terms {
+    width: 80%;
+}
+
+
+
+.footer ul {
+    margin: 10px;
+    padding: 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    float: left;
+    color: #000;
+    padding: 0 10px;
+}
+.footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/****************************************************Forget popup design**************************************/
+.modal-content{
+	 background-color: #33b6c0;
+	  box-shadow: 0px 0px 5px #fff;
+	  border-radius:0px;
+	  
+	      position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+  
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}

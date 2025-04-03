@@ -1,0 +1,277 @@
+body {
+    font-family: Lato;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #212529;
+    text-align: left;
+}
+
+h1,h2 {
+    color: #120089;
+    font-family: MoolBoran
+}
+
+h3,h4,h5,h6 {
+    font-family: Catamaran;
+    font-weight: 800!important
+}
+
+.btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem
+}
+
+.bg-black {
+    background-color: #000!important
+}
+
+.rounded-pill {
+    border-radius: 5rem
+}
+
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: darkblue
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 700
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: white
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-image: url("../img/LoginPageBackground.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-height: auto;
+    background-attachment: scroll;
+    background-size: 100% 100%
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top:calc(10rem + 55px);
+        padding-bottom: 10rem
+    }
+
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem
+    }
+
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem
+    }
+}
+
+.bg-primary {
+    background-color: lightgreen!important
+}
+
+.btn-primary {
+    background-color: darkblue;
+    border-color: darkblue
+}
+
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover {
+    background-color: darkblue!important;
+    border-color: darkblue!important
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem darkblue(238,9,121,.5)
+}
+
+.btn-secondary {
+    background-color: darkblue;
+    border-color: darkblue
+}
+
+.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover {
+    background-color: darkblue!important;
+    border-color: darkblue!important
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem darkblue(255,106,0,.5)
+}
+
+.masthead-heading {
+    color: #085283
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.home-contactus-form {
+	    margin-left: 15px;
+
+}
+
+.home-contactus-form .center_div{
+	margin:20px 0px;
+}
+.contact-info a:link, .contact-info a:visited, .contact-info a:active{
+	color:#000;
+	text-decoration:none;
+}
+.contact-info a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+h6{
+	    font-family: Catamaran;
+    font-weight: 800 !important;
+}
+
+/**********************************************************Myhub.css--------------------------------------------------***/
+
+ .row.myhub-row {
+    padding: 5rem 0rem !important;
+}
+ 
+ .hub-img {
+    padding: 60px;
+}
+.hub-content { padding-left:40px}
+.hub-content h2{
+	text-decoration:underline;
+	margin-bottom:30px;
+}
+.hub-content h3{
+color: #120089;
+    font-family: MoolBoran !important;
+	    line-height: 40px;
+}
+/********************************************************Gallery.css**********************************************************/
+
+#gallery {
+    
+    margin-top: 130px;
+    padding: 40px 0px;
+}
+img{
+	width:100%;
+	
+}
+
+.row {
+	    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:darkblue;
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+    
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color:white;
+  }
